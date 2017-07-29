@@ -73,13 +73,16 @@ window.onload = function () {
 
   }
 
-  $('.row').click(function (event) {
-    var colorToggle = 0;
+  var colorToggle = 0;
     if (colorToggle === 0) {
       $(this).css({
         'background-color': '#e5e2ac'
       })
     }
+
+
+  $('.row').click(function (event) {
+    colorToggle += 1;
     if (colorToggle === 1) {
       $(this).css({
         'background-color': 'red'
