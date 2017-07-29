@@ -86,6 +86,11 @@ window.onload = function () {
     if (colorToggle > 3) {
       colorToggle = 0;
     }
+    if (colorToggle === 0) {
+      $(this).css({
+        'background-color': '#e5e2ac'
+      })
+    }
     if (colorToggle === 1) {
       $(this).css({
         'background-color': 'red'
