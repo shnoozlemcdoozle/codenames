@@ -83,6 +83,9 @@ window.onload = function () {
 
   $('.row').click(function (event) {
     colorToggle += 1;
+    if (colorToggle > 3) {
+      colorToggle = 0;
+    }
     if (colorToggle === 1) {
       $(this).css({
         'background-color': 'red'
