@@ -76,7 +76,7 @@ window.onload = function () {
   var colorToggle = 0;
     if (colorToggle === 0) {
       $(this).css({
-        'background-color': '#e5e2ac'
+        'background-color': 'beige'
       })
     }
 
@@ -88,7 +88,7 @@ window.onload = function () {
     }
     if (colorToggle === 0) {
       $(this).css({
-        'background-color': '#e5e2ac'
+        'background-color': 'beige'
       })
     }
     if (colorToggle === 1) {
