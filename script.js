@@ -1,5 +1,5 @@
 window.onload = function () {
-  var wordBank = ['africa', 'Michael', 'Eitan', 'Kareen', 'Gabby', 'Game of Thrones', 'agent', 'air', 'alien', 'amazon', 'angel', 'antarctica', 'arm', 'back', 'band', 'bank', 'bark', 'beach', 'belt', 'berlin', 'berry', 'board', 'bond', 'boom', 'bow', 'box', 'bug', 'canada', 'capital', 'cell', 'center', 'china', 'chocolate', 'circle', 'club', 'compound', 'copper', 'crash', 'cricket', 'cross', 'death', 'dice', 'dinosaur', 'doctor', 'dwarf', 'eagle', 'egypt', 'engine', 'england', 'europe', 'eye', 'fair', 'fall', 'file', 'film', 'fish', 'flute', 'fly', 'forest', 'fork', 'france', 'gas', 'ghost', 'giant', 'glass', 'gold', 'greece', 'green', 'ham', 'head', 'himalaya', 'hole', 'hood', 'human', 'horseshoe', 'hospital', 'hotel', 'ice', 'india', 'iron', 'ivory', 'jet', 'jupiter', 'kangaroo', 'ketchup', 'kid', 'king', 'kiwi', 'knife', 'knight', 'lab', 'lap', 'laser', 'lawyer', 'lead', 'lemon', 'limousine', 'lock', 'log', 'mammoth', 'maple', 'march', 'mass', 'mercury', 'millionaire', 'model', 'mole', 'moscow', 'mouth', 'mug', 'needle', 'net', 'new', 'york', 'night', 'note', 'novel', 'nurse', 'nut', 'oil', 'olive', 'olympus', 'opera', 'orange', 'paper', 'park', 'part', 'paste', 'phoenix', 'piano', 'telescope', 'teacher', 'switch', 'swing', 'sub', 'stick', 'staff', 'stadium', 'sprint', 'spike', 'snowman', 'slip', 'shot', 'shadow', 'server', 'ruler', 'row', 'rose', 'root', 'rome', 'robot', 'robin', 'revolution', 'rat', 'racket', 'queen', 'press', 'port', 'pilot', 'time', 'tooth', 'tower', 'truck', 'triangle', 'trip', 'turkey', 'unicorn', 'vacuum', 'wake', 'wall', 'war', 'washer', 'washington', 'wave', 'well', 'whale', 'whip', 'worm', 'yard','all','bat','bed','book','bun','can','cake','cap','car','cat','cow','cub','cup','dad','day','dog','doll','fan','feet','girl','gun','hall','hat','hen','jar','man','map','men','mom','pan','pet','pie','pig','pot','son','sun','toe','tub','van','banana','bike','bird','chin','clam','class','clover','corn','crayon','crow','crown','crowd','crib','desk','dime','dirt','dress','fang','','field','flag','flower','fog','heat','hill','home','horn','hose','joke','juice','kite','lake','maid','mask','mice','milk','mint','meal','meat','moon','mother','morning','name','nest','nose','pear','pen','pencil','plant','rain','river','road','rock','room','seed','shape','shoe','shop','show','sink','snail','snake','snow','soda','sofa','star','step','stew','stove','straw','string','swing','table','tank','team','tent','test','toes','tree','vest','wing','woman','women','alarm','animal','aunt','bait','balloon','bath','bead','beam','bean','bedroom','boot','bread','brick','brother','camp','chicken','children','crook','deer','dock','downtown','drum','dust','family','father','fight','flesh','food','frog','grade','grandfather','grandmother','grape','grass','hook','horse','jail','jam','kiss','light','loaf','lunch','lunchroom','notebook','owl','parent','plot','rabbit','rake','sack','sail','sea','sister','soap','song','spark','space','spoon','spot','spy','summer','tiger','toad','town','trail','tramp','tray','trick','uncle','vase','winter','water','week','wheel','wish','wool','zebra','actor','airplane','airport','army','baseball','beef','birthday','boy','brush','bushes','butter','','cast','cave','cent','cherries','cherry','cobweb','coil','cracker','dinner','eggnog','elbow','face','fireman','flavor','gate','glove','glue','goldfish','goose','grain','hair','haircut','hobbies','holiday','hot','jellyfish','ladybug','mailbox','number','oatmeal','pail','pancake','pest','popcorn','quicksand','quiet','quilt','rainstorm','scarecrow','scarf','stream','street','sugar','toothpaste','twig','volleyball','wood','wrench','advice','anger','answer','apple','arithmetic','badge','basket','basketball','battle','beast','beetle','beggar','brain','branch','bubble','bucket','cactus','cannon','cattle','celery','cellar','cloth','coach','coast','crate','cream','daughter','donkey','drug','earthquake','feast','fifth','finger','flock','frame','furniture','geese','giraffe','governor','honey','hope','hydrant','icicle','income','island','jeans','judge','lace','lamp','lettuce','marble','month','north','ocean','patch','plane','playground','poison','riddle','rifle','scale','seashore','sheet','sidewalk','skate','slave','sleet','smoke','stage','station','thrill','throat','throne','title','toothbrush','underwear','vacation','vegetable','visitor','voyage','year','able','achieve','acoustics','action','activity','aftermath','afternoon','afterthought','apparel','appliance','beginner','believe','bomb','border','boundary','breakfast','cabbage','cable','calculator','calendar','caption','carpenter','cemetery','channel','creator','creature','education','faucet','feather','friction','fruit','fuel','galley','guide','guitar','health','heart','idea','kitten','laborer','language','linen','locket','lumber','magic','minister','mitten','money','mountain','music','partner','passenger','pickle','picture','plantation','plastic','pleasure','pocket','police','pollution','railway','recess','reward','route','scene','scent','squirrel','stranger','suit','sweater','temper','territory','texture','thread','treatment','veil','vein','volcano','wealth','weather','wilderness','wren','wrist','writer']
+  var wordBank = ['africa', 'Michael', 'Eitan', 'Kareen', 'Gabby', 'Game of Thrones', 'agent', 'air', 'alien', 'amazon', 'angel', 'antarctica', 'arm', 'back', 'band', 'bank', 'bark', 'beach', 'belt', 'berlin', 'berry', 'board', 'bond', 'boom', 'bow', 'box', 'bug', 'canada', 'capital', 'cell', 'center', 'china', 'chocolate', 'circle', 'club', 'compound', 'copper', 'crash', 'cricket', 'cross', 'death', 'dice', 'dinosaur', 'doctor', 'dwarf', 'eagle', 'egypt', 'engine', 'england', 'europe', 'eye', 'fair', 'fall', 'file', 'film', 'fish', 'flute', 'fly', 'forest', 'fork', 'france', 'gas', 'ghost', 'giant', 'glass', 'gold', 'greece', 'green', 'ham', 'head', 'himalaya', 'hole', 'hood', 'human', 'horseshoe', 'hospital', 'hotel', 'ice', 'india', 'iron', 'ivory', 'jet', 'jupiter', 'kangaroo', 'ketchup', 'kid', 'king', 'kiwi', 'knife', 'knight', 'lab', 'lap', 'laser', 'lawyer', 'lead', 'lemon', 'limousine', 'lock', 'log', 'mammoth', 'maple', 'march', 'mass', 'mercury', 'millionaire', 'model', 'mole', 'moscow', 'mouth', 'mug', 'needle', 'net', 'new', 'york', 'night', 'note', 'novel', 'nurse', 'nut', 'oil', 'olive', 'olympus', 'opera', 'orange', 'paper', 'park', 'part', 'paste', 'phoenix', 'piano', 'telescope', 'teacher', 'switch', 'swing', 'sub', 'stick', 'staff', 'stadium', 'sprint', 'spike', 'snowman', 'slip', 'shot', 'shadow', 'server', 'ruler', 'row', 'rose', 'root', 'rome', 'robot', 'robin', 'revolution', 'rat', 'racket', 'queen', 'press', 'port', 'pilot', 'time', 'tooth', 'tower', 'truck', 'triangle', 'trip', 'turkey', 'unicorn', 'vacuum', 'wake', 'wall', 'war', 'washer', 'washington', 'wave', 'well', 'whale', 'whip', 'worm', 'yard', 'all', 'bat', 'bed', 'book', 'bun', 'can', 'cake', 'cap', 'car', 'cat', 'cow', 'cub', 'cup', 'dad', 'day', 'dog', 'doll', 'fan', 'feet', 'girl', 'gun', 'hall', 'hat', 'hen', 'jar', 'man', 'map', 'men', 'mom', 'pan', 'pet', 'pie', 'pig', 'pot', 'son', 'sun', 'toe', 'tub', 'van', 'banana', 'bike', 'bird', 'chin', 'clam', 'class', 'clover', 'corn', 'crayon', 'crow', 'crown', 'crowd', 'crib', 'desk', 'dime', 'dirt', 'dress', 'fang', '', 'field', 'flag', 'flower', 'fog', 'heat', 'hill', 'home', 'horn', 'hose', 'joke', 'juice', 'kite', 'lake', 'maid', 'mask', 'mice', 'milk', 'mint', 'meal', 'meat', 'moon', 'mother', 'morning', 'name', 'nest', 'nose', 'pear', 'pen', 'pencil', 'plant', 'rain', 'river', 'road', 'rock', 'room', 'seed', 'shape', 'shoe', 'shop', 'show', 'sink', 'snail', 'snake', 'snow', 'soda', 'sofa', 'star', 'step', 'stew', 'stove', 'straw', 'string', 'swing', 'table', 'tank', 'team', 'tent', 'test', 'toes', 'tree', 'vest', 'wing', 'woman', 'women', 'alarm', 'animal', 'aunt', 'bait', 'balloon', 'bath', 'bead', 'beam', 'bean', 'bedroom', 'boot', 'bread', 'brick', 'brother', 'camp', 'chicken', 'children', 'crook', 'deer', 'dock', 'downtown', 'drum', 'dust', 'family', 'father', 'fight', 'flesh', 'food', 'frog', 'grade', 'grandfather', 'grandmother', 'grape', 'grass', 'hook', 'horse', 'jail', 'jam', 'kiss', 'light', 'loaf', 'lunch', 'lunchroom', 'notebook', 'owl', 'parent', 'plot', 'rabbit', 'rake', 'sack', 'sail', 'sea', 'sister', 'soap', 'song', 'spark', 'space', 'spoon', 'spot', 'spy', 'summer', 'tiger', 'toad', 'town', 'trail', 'tramp', 'tray', 'trick', 'uncle', 'vase', 'winter', 'water', 'week', 'wheel', 'wish', 'wool', 'zebra', 'actor', 'airplane', 'airport', 'army', 'baseball', 'beef', 'birthday', 'boy', 'brush', 'bushes', 'butter', '', 'cast', 'cave', 'cent', 'cherries', 'cherry', 'cobweb', 'coil', 'cracker', 'dinner', 'eggnog', 'elbow', 'face', 'fireman', 'flavor', 'gate', 'glove', 'glue', 'goldfish', 'goose', 'grain', 'hair', 'haircut', 'hobbies', 'holiday', 'hot', 'jellyfish', 'ladybug', 'mailbox', 'number', 'oatmeal', 'pail', 'pancake', 'pest', 'popcorn', 'quicksand', 'quiet', 'quilt', 'rainstorm', 'scarecrow', 'scarf', 'stream', 'street', 'sugar', 'toothpaste', 'twig', 'volleyball', 'wood', 'wrench', 'advice', 'anger', 'answer', 'apple', 'arithmetic', 'badge', 'basket', 'basketball', 'battle', 'beast', 'beetle', 'beggar', 'brain', 'branch', 'bubble', 'bucket', 'cactus', 'cannon', 'cattle', 'celery', 'cellar', 'cloth', 'coach', 'coast', 'crate', 'cream', 'daughter', 'donkey', 'drug', 'earthquake', 'feast', 'fifth', 'finger', 'flock', 'frame', 'furniture', 'geese', 'giraffe', 'governor', 'honey', 'hope', 'hydrant', 'icicle', 'income', 'island', 'jeans', 'judge', 'lace', 'lamp', 'lettuce', 'marble', 'month', 'north', 'ocean', 'patch', 'plane', 'playground', 'poison', 'riddle', 'rifle', 'scale', 'seashore', 'sheet', 'sidewalk', 'skate', 'slave', 'sleet', 'smoke', 'stage', 'station', 'thrill', 'throat', 'throne', 'title', 'toothbrush', 'underwear', 'vacation', 'vegetable', 'visitor', 'voyage', 'year', 'able', 'achieve', 'acoustics', 'action', 'activity', 'aftermath', 'afternoon', 'afterthought', 'apparel', 'appliance', 'beginner', 'believe', 'bomb', 'border', 'boundary', 'breakfast', 'cabbage', 'cable', 'calculator', 'calendar', 'caption', 'carpenter', 'cemetery', 'channel', 'creator', 'creature', 'education', 'faucet', 'feather', 'friction', 'fruit', 'fuel', 'galley', 'guide', 'guitar', 'health', 'heart', 'idea', 'kitten', 'laborer', 'language', 'linen', 'locket', 'lumber', 'magic', 'minister', 'mitten', 'money', 'mountain', 'music', 'partner', 'passenger', 'pickle', 'picture', 'plantation', 'plastic', 'pleasure', 'pocket', 'police', 'pollution', 'railway', 'recess', 'reward', 'route', 'scene', 'scent', 'squirrel', 'stranger', 'suit', 'sweater', 'temper', 'territory', 'texture', 'thread', 'treatment', 'veil', 'vein', 'volcano', 'wealth', 'weather', 'wilderness', 'wren', 'wrist', 'writer']
 
   function shuffleWords(wordBank) {
     for (var i = wordBank.length - 1; i > 0; i--) {
@@ -12,6 +12,7 @@ window.onload = function () {
   }
 
   shuffleWords(wordBank);
+  var toggle = 0;
 
   var box0word = wordBank.shift();
   var box1word = wordBank.shift();
@@ -38,7 +39,6 @@ window.onload = function () {
   var box22word = wordBank.shift();
   var box23word = wordBank.shift();
   var box24word = wordBank.shift();
-  var box25word = wordBank.shift();
 
 
 
@@ -68,17 +68,17 @@ window.onload = function () {
     document.getElementById("box22").append(box22word);
     document.getElementById("box23").append(box23word);
     document.getElementById("box24").append(box24word);
-    document.getElementById("box25").append(box25word);
+
 
 
   }
 
   var colorToggle = 0;
-    if (colorToggle === 0) {
-      $(this).css({
-        'background-color': 'beige'
-      })
-    }
+  if (colorToggle === 0) {
+    $(this).css({
+      'background-color': 'beige'
+    })
+  }
 
 
   $('.row').click(function (event) {
@@ -102,11 +102,11 @@ window.onload = function () {
       });
     }
     else if (colorToggle === 3) {
-        $(this).css({
-          'background-color': 'grey'
-        });
-      };
-    }
+      $(this).css({
+        'background-color': 'grey'
+      });
+    };
+  }
   );
 
   document.getElementById('help').onclick = function () {
@@ -124,6 +124,30 @@ window.onload = function () {
 
   $('#reset').click(function () {
     location.reload();
+  });
+
+  $('#switchCard').click(function () {
+    toggle = 1;
+    box1word = 0;
+    box1word = wordBank.shift();
+    console.log(toggle);
+
+
   })
 
+
+
+  $('a').click(function () {
+    if (toggle === 1) {
+      $(this).empty().append(box1word);
+      console.log(toggle);
+      toggle  = 0;
+    }
+  })
+
+
+
+
 }
+
+
